@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+      <script src="check.js"></script>
+       <link href="'https://fonts.googleapis.com/css?family=Work+Sans:400,600'">
+       <link rel="stylesheet" href="styles.css" type="text/css">
+       <meta charset="UTF-8">
+       <title> Contact </title>
+    </head>
+    <body>
+<header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="exams.html">Home</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <form id="frm" name="frm" onsubmit="return checkForm(this)">
+        
+    <label for="surnameLabel">Surname:</label>
+    <input type="text" class="form-control" name="surname" id="surname" size="10">
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <label for="nameLabel">Name:</label>
+    <input type="text" class=" form-control" name="name" id="name" size="10">
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <label for="studentidLabel"> StudentId:</label>
+    <input type="number" class="form-control" name="studentid" id="studentid" size="10">
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <label for="emailLabel">Email:</label>
+    <input type="text" class="form-control" name="email" id="email" size="10"
+        aria-describedby="acostHelp">
+        <br>
+        <br>
+        <br>
+        <br>
+
+    <label for="noteLabel"> Note:</label>
+    <input type="text" class="form-control" name="note" id="note" size="10">
+        <br>
+        <br>
+        <br>
+        <br>
+    <button type="submit" class="btn btn-success">Submit!</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="result" class="alert alert-light col-md-8" role="alert">
+</form>
+</body>
+  </html>
